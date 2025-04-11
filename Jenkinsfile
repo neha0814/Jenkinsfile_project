@@ -5,7 +5,7 @@ pipeline{
  tools{
  // here mymaven is tool configured under global tool configuration
  // new tools added
- maven 'mymaven'
+ maven 'maven'
  }
  
  stages{
@@ -14,7 +14,7 @@ pipeline{
  
  {
  steps{
- git 'https://github.com/github-simplilearn-net/MavenBuild.git'
+ git 'https://github.com/neha0814/Jenkinsfile_project.git'
  }
  }
  
